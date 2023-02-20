@@ -10,8 +10,7 @@
 }
 
 body {
-    font-size: 100%;
-    
+    font-size: 100%;    
     background: url(resources/pexels-anna-shvets-4587960.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -23,36 +22,43 @@ body {
     align-items: center;
     gap: 10%;
     justify-content: space-around;
+    flex-wrap: wrap;
     
-    background: rgba(11, 10, 10, 0.4);
+    background: rgba(179, 132, 150, 0.6);
     backdrop-filter: blur(2px);
 }
 
 .cabecalho-titulo{
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 700;
+    font-size: 1.5em;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
 }
 
 .cabecalho-nav {
     display: flex;
     flex-direction: row;
-    gap: 5%;
+    gap: 15px;
     align-items: center;
+    justify-content: space-around;
 }
 
 .cabecalho-nav-item {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #FFFFFF;
+    text-align: center;
+    gap: 1em;
+    font-size: 1em;
 }
 
 .nav-atual {
-    background: linear-gradient(360deg, #6CAB6F 0%, #CFDB72 100%);
+    background: linear-gradient(360deg, #8DACB3 50.65%, #BDF3FF 100%);
     box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    padding: 10px;
+    padding: 4%;
 }
 
 .conteudo {
@@ -68,7 +74,8 @@ body {
     justify-content: space-evenly;
     padding: 3%;
     flex-wrap: wrap;
-    background: rgba(11, 10, 10, 0.4);
+    background: rgba(179, 132, 150, 0.6);
+    backdrop-filter: blur(2px);
 }
 
 .conteudo-principal-texto-item {
@@ -116,8 +123,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 2%;
-    
+    margin: 25px;
 }
 
 .conteudo-secundario-botao {
@@ -125,11 +131,12 @@ body {
     margin: 0;
     padding: 0;
 
-    background: linear-gradient(360deg, #0D2829 12.41%, #154237 22.96%, #235C44 33.5%, #317545 44.04%, #428F42 54.58%, #6EA84A 65.12%, #A3C255 75.67%, #CFDB72 86.21%);
+    background: linear-gradient(360deg, #8DACB3 50.65%, #BDF3FF 100%);
     border: 1px solid #0D2829;
     box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
-    padding: 0.5%;
+    padding: 0.5em;
+    margin: 1.5em;
 
     color:#FFFFFF;
     font-family: 'Roboto', sans-serif;
@@ -142,9 +149,9 @@ body {
     justify-content: space-around;
     align-items: center;
 
-    background: rgba(0, 0, 0, 0.4);
-    margin-top: 0.5px;
-    padding: 0.5%;
+    background: rgba(179, 132, 150, 0.6);
+    backdrop-filter: blur(2px);
+    padding: 1em;
 }
 
 .rodape-link {
@@ -156,6 +163,3 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
 }
-
-
-
