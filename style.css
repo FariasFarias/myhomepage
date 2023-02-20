@@ -106,7 +106,7 @@ body {
 }
 
 .conteudo-principal-img-file {
-    padding: 100px;
+    padding: 70%;
     background: #523C53;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 45px;
@@ -116,7 +116,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 10px;
+    margin: 2%;
     
 }
 
@@ -128,12 +128,12 @@ body {
     background: linear-gradient(360deg, #0D2829 12.41%, #154237 22.96%, #235C44 33.5%, #317545 44.04%, #428F42 54.58%, #6EA84A 65.12%, #A3C255 75.67%, #CFDB72 86.21%);
     border: 1px solid #0D2829;
     box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-    padding: 15px;
+    border-radius: 15px;
+    padding: 0.5%;
 
     color:#FFFFFF;
     font-family: 'Roboto', sans-serif;
-    font-size: 15pt;
+    font-size: 100%;
 }
 
 .rodape {
