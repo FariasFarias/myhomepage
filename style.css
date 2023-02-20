@@ -21,10 +21,9 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 35px;
+    gap: 10%;
     justify-content: space-around;
     
-    flex-wrap: wrap;
     background: rgba(11, 10, 10, 0.4);
     backdrop-filter: blur(2px);
 }
@@ -32,7 +31,6 @@ body {
 .cabecalho-titulo{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 0;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -40,7 +38,7 @@ body {
 .cabecalho-nav {
     display: flex;
     flex-direction: row;
-    gap: 32px;
+    gap: 5%;
     align-items: center;
 }
 
@@ -60,6 +58,7 @@ body {
 .conteudo {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .conteudo-principal {
@@ -67,21 +66,18 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    padding: 60px;
-
+    padding: 3%;
+    flex-wrap: wrap;
     background: rgba(11, 10, 10, 0.4);
 }
 
 .conteudo-principal-texto-item {
     font-family: 'Roboto';
-    font-weight: 400;
-
     color: #FFFFFF;
 }
 
 .conteudo-principal-texto-p {
     font-family: 'Roboto';
-   
     color: #FFFFFF;
 }
 
@@ -89,7 +85,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 20px;
+    gap: 6%;
     align-items: center;
 }
 
@@ -147,18 +143,16 @@ body {
     align-items: center;
 
     background: rgba(0, 0, 0, 0.4);
-    margin-top: 15px;
-    padding: 10px;
+    margin-top: 0.5px;
+    padding: 0.5%;
 }
 
-.rodape-link
-{
+.rodape-link {
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
 }
 
-.rodape-link-a 
-{
+.rodape-link-a {
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
 }
