@@ -27,7 +27,7 @@ body {
     text-align: center;
 }
 
-.conteudo-secao-input {
+#input {
     background: black;
     border: 5px solid #FFFFFF;
     color: white;
@@ -36,7 +36,7 @@ body {
     text-align: center;
 }
 
-.conteudo-secao-botao {
+#btn {
     background: black;
     border: 5px solid #38F96E;
     color: #38F96E;
