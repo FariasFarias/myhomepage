@@ -26,12 +26,15 @@ body {
     
     background: rgba(179, 132, 150, 0.6);
     backdrop-filter: blur(2px);
+    padding: 1%;
+   
+    
 }
 
 .cabecalho-titulo{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 1.5em;
+    font-size: 200%;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-decoration: none;
@@ -40,9 +43,8 @@ body {
 .cabecalho-nav {
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 1.5%;
     align-items: center;
-    justify-content: space-around;
 }
 
 .cabecalho-nav-item {
@@ -50,8 +52,7 @@ body {
     font-weight: 400;
     color: #FFFFFF;
     text-align: center;
-    gap: 1em;
-    font-size: 1em;
+    font-size: 100%;
 }
 
 .nav-atual {
@@ -72,10 +73,12 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    padding: 3%;
+    gap: 0.2%;
+    padding: 1em;
     flex-wrap: wrap;
     background: rgba(179, 132, 150, 0.6);
     backdrop-filter: blur(2px);
+    margin-top: 5%;
 }
 
 .conteudo-principal-texto-item {
@@ -91,9 +94,11 @@ body {
 .conteudo-principal-img {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    gap: 6%;
+    justify-content: center;
+    gap: 0.5em;
     align-items: center;
+    width: 90px;
+    padding: 0.5%;
 }
 
 .conteudo-principal-img-botao{
@@ -103,20 +108,20 @@ body {
 
     background: rgba(0, 0, 0, 0.4);
     border-radius: 10px;
-    padding: 10px;
+    padding: 2%;
 
     font-family: 'Roboto';
     font-style: normal;
-    font-size: 32px;
+    font-size: 200%;
 
     color: #FFFFFF;
 }
 
 .conteudo-principal-img-file {
-    padding: 70%;
     background: #523C53;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 45px;
+    border-radius: 20px;
+    width: 12em;
 }
 
 .conteudo-secundario {
@@ -135,23 +140,24 @@ body {
     border: 1px solid #0D2829;
     box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
-    padding: 0.5em;
-    margin: 1.5em;
+    padding: 0.5%;
+    margin: 0.5em;
 
     color:#FFFFFF;
     font-family: 'Roboto', sans-serif;
     font-size: 100%;
+    text-align: center;
 }
 
 .rodape {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 
     background: rgba(179, 132, 150, 0.6);
     backdrop-filter: blur(2px);
-    padding: 1em;
+    padding: 1.8%;
 }
 
 .rodape-link {
